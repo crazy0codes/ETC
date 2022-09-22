@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+input {
+    color: black;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.login {
+    border-style: none;
+    color:rgb(255, 255, 255);
+    background-color:rgb(31, 154, 255);
+}

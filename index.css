@@ -1,17 +1,28 @@
+body {
+    background-image: url("https://i.redd.it/c3uhsgo1vx541.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .form {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 97vh;
+    color: white;
 }
 input {
-    color: black;
+    color: rgb(0, 255, 255);
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(0, 255, 229);
     outline: none;
+    background-color: transparent;
 }
-.login {
-    border-style: none;
-    color:rgb(255, 255, 255);
-    background-color:rgb(31, 154, 255);
+.back {
+    z-index: -1;
+    position:absolute;
+    background-color: rgba(19, 3, 82, 0.846);
+    width: 250px;
+    height: 250px;
+    border-radius: 3px;
 }

@@ -15,7 +15,7 @@ $querry2 = "SELECT * FROM STUDENTS
 $results = mysqli_query($conn,$querry2);
 $details = mysqli_fetch_assoc($results);
 if($details['name']==null){
-    echo $_SERVER("/xampp/htdocs/dashboard/Madhan_ETC/index.html");
+    echo $_SERVER("index.html");
 }
 mysqli_close($conn);//CONNCETION Closed
 ?>

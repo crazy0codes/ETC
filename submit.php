@@ -14,8 +14,9 @@ $querry2 = "SELECT * FROM STUDENTS
             where name = '$name' and pass = '$psw' ";
 $results = mysqli_query($conn,$querry2);
 $details = mysqli_fetch_assoc($results);
-if($details['name']==null){
-    echo $_SERVER("index.html");
+if(!$details['name'] && !$details['pass']){
+    echo header("location: index.html");
 }
+setcookie("name",$details['name'],time()+36000);
 mysqli_close($conn);//CONNCETION Closed
 ?>

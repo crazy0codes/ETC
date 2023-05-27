@@ -3,10 +3,10 @@
 $name = $_POST["name"];
 $psw  = $_POST['password'];
 //
-$host = "root";
-$server = "127.0.0.1";
-$pass = "";
-$db = "ETC";
+$host = "aws.connect.psdb.cloud";
+$server = "2dlgsqkpi4y17pvtmmrk";
+$pass = "pscale_pw_Qsc3UmOSMXI2QpZFbOtnYtoca9EAfvIvB55H2QYQyYc";
+$db = "data-table";
 //
 $conn = mysqli_connect($server,$host,$pass,$db); //server details
 //
